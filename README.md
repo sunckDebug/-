@@ -1,7 +1,7 @@
 # - 玩家分数数排行榜
 
 ## -接口一
-#### - 客户端上客户端号和分数  当前接口使用http get传参   http://127.0.0.1:8000/app/submit?name=客户六&score=20
+#### - 客户端上传客户端号和分数  当前接口使用http get传参   http://127.0.0.1:8000/app/submit?name=客户六&score=20
 #### - 其中name参数必填 score可填可不填
 
 
