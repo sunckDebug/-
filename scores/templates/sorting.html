@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>查询排名</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <td>排名</td>
+                <td>客户端</td>
+                <td>分数</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for i in list %}
+                <tr>
+                    <td>{{ i.ranking }}</td>
+                    <td>{{ i.name }}</td>
+                    <td>{{ i.score }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+
+        <tfoot></tfoot>
+    </table>
+    
+</body>
+</html>
